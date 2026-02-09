@@ -46,9 +46,11 @@ select, button {
 .topbar .right { gap: 0.25rem; }
 .topbar #current-date, .topbar #current-time { color: var(--muted); }
 /* Logo styling */
-.logo { width: 40px; height: 40px; margin-bottom: 0.4rem; }
+.logo { width: 40px; height: 40px; margin-bottom: 0.2rem; }
 .times {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
 }
 .time {
   display: flex;
@@ -138,17 +140,6 @@ small { color: var(--muted); }
 .icon-button:not(.disabled):active { transform: scale(0.97); }
 .icon-button.disabled {
   color: #9ca3af; /* gray */
-}
-.icon-button.disabled::after {
-  content: "";
-  position: absolute;
-  left: 2px;
-  right: 2px;
-  top: 50%;
-  height: 2px;
-  background: currentColor;
-  transform: rotate(-15deg);
-  pointer-events: none;
 }
 .icon-button.muted { color: #9ca3af; }
 .time .name { display: flex; align-items: center; gap: 0.4rem; }

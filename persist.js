@@ -44,6 +44,7 @@ self.addEventListener("message", async e => {
   const times = table.days[key];
   const enabled = e.data.enabledPrayers || {};
 
+
   for (const prayer in times) {
     if (!enabled[prayer]) continue;
     const [h, m] = times[prayer].split(":").map(Number);

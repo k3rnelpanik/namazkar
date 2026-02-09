@@ -172,6 +172,7 @@ function parseTimeToDate(timeStr, offsetMin, baseDate = new Date()) {
   return d;
 }
 
+
 function formatCountdown(ms) {
   if (ms <= 0) return "Now";
   const totalSec = Math.floor(ms / 1000);
@@ -226,8 +227,8 @@ function updateNextPrayer() {
   if (!next) return;
   if (nextNameEl) nextNameEl.textContent = next.name;
   if (nextTimeEl) nextTimeEl.textContent = next.timeStr;
-  const ms = next.at - new Date();
-  if (nextCountdownEl) nextCountdownEl.textContent = formatCountdown(ms);
+  // No remaining-time countdown; only show next prayer name/time
+  if (nextCountdownEl) nextCountdownEl.textContent = "";
   // highlight row
   const prev = timesDiv.querySelector('.time.next');
   if (prev) prev.classList.remove('next');
