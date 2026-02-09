@@ -1,6 +1,10 @@
 # Namaz Kar?
 
+<img src="icons/mosque.svg" alt="Namaz Kar logo" width="96" height="96">
+
 Prayer times for the Kashmir Valley based on [the official Meeqat published by Dar-ul-Uloom Rahimiyyah, Bandipora](http://raheemiyyah.com/meeqat-us-salat/). This repo contains a small, offline-capable web app that shows today's prayer times, highlights the next prayer, and optionally sends browser notifications.
+
+Live deployment: [namazkar.vercel.app](https://namazkar.vercel.app)
 
 **Why this app**
 - Because most apps showed incorrect prayer times for the Kashmir Valley, I created a small, lightweight, offline-capable PWA.
@@ -53,6 +57,7 @@ Prayer times for the Kashmir Valley based on [the official Meeqat published by D
 	- Alternatively, open DevTools → Application → Service Workers → Unregister, then reload.
 
 **Quick Start**
+- Option 0: Use the live deployment: [namazkar.vercel.app](https://namazkar.vercel.app) (full PWA + notifications)
 - Option 1: Open [index.html](index.html) directly (no notifications).
 - Option 2: Run a local server (recommended for service worker + notifications):
 
