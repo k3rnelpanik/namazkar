@@ -4,25 +4,37 @@ let enabledPrayers = {};
 
 const timesDiv = document.getElementById("times");
 const citySelect = document.getElementById("citySelect");
-const cityInfo = document.getElementById("city-info");
-const notifyIcon = document.getElementById("notifyIcon");
+// topbar elements
+const currentDateEl = document.getElementById("current-date");
+const currentTimeEl = document.getElementById("current-time");
+const notifyGlobal = document.getElementById("notifyGlobal");
+const offsetChip = document.getElementById("offset-chip");
+const nextNameEl = document.getElementById("next-name");
+const nextTimeEl = document.getElementById("next-time");
+const nextCountdownEl = document.getElementById("next-countdown");
+const themeToggle = document.getElementById("themeToggle");
+const offsetText = document.getElementById("offset-text");
 
 function updateNotifyIconState() {
-  if (!notifyIcon) return;
+  if (!notifyGlobal) return;
   const supported = "Notification" in window;
   if (!supported) {
-    notifyIcon.classList.add("disabled");
-    notifyIcon.classList.remove("enabled");
-    notifyIcon.title = "Notifications not supported";
-    notifyIcon.setAttribute("aria-disabled", "true");
+    notifyGlobal.classList.add("disabled");
+    notifyGlobal.classList.remove("enabled");
+    notifyGlobal.title = "Notifications not supported";
+    notifyGlobal.setAttribute("aria-disabled", "true");
+    const img = notifyGlobal.querySelector('.icon-img');
+    if (img) img.src = 'icons/bell-slash.svg';
     return;
   }
   const perm = Notification.permission;
   const isEnabled = perm === "granted";
-  notifyIcon.classList.toggle("disabled", !isEnabled);
-  notifyIcon.classList.toggle("enabled", isEnabled);
-  notifyIcon.title = isEnabled ? "Notifications enabled" : "Enable notifications";
-  notifyIcon.setAttribute("aria-disabled", isEnabled ? "false" : "true");
+  notifyGlobal.classList.toggle("disabled", !isEnabled);
+  notifyGlobal.classList.toggle("enabled", isEnabled);
+  notifyGlobal.title = isEnabled ? "Notifications enabled" : "Enable notifications";
+  notifyGlobal.setAttribute("aria-disabled", isEnabled ? "false" : "true");
+  const img = notifyGlobal.querySelector('.icon-img');
+  if (img) img.src = isEnabled ? 'icons/bell.svg' : 'icons/bell-slash.svg';
 }
 
 function loadEnabledPrayers() {
@@ -53,8 +65,10 @@ cities = await fetch("data/offset.json").then(r => {
   selectedCity =
     localStorage.getItem("city") || cities.base_city;
 
+  initTheme();
   populateCities();
   renderTimes();
+  updateDayContext();
 }
 
 function populateCities() {
@@ -93,31 +107,33 @@ function renderTimes() {
   const baseTimes = timetable.days[key];
   const offset = cities.cities[selectedCity].offset;
 
-  cityInfo.textContent =
-    `${selectedCity} (Offset: ${offset >= 0 ? "+" : ""}${offset} min)`;
+  if (offsetText) {
+    offsetText.textContent = `${offset >= 0 ? "+" : ""}${offset} min`;
+  }
 
   timesDiv.innerHTML = "";
   for (const prayer in baseTimes) {
     const adjusted = addMinutes(baseTimes[prayer], offset);
     const row = document.createElement("div");
     row.className = "time";
+    row.dataset.prayer = prayer;
     const permGranted = ("Notification" in window) && Notification.permission === "granted";
     const isOn = !!enabledPrayers[prayer];
     const classes = ["icon-button", "prayer-notify"]; 
     if (!permGranted) classes.push("disabled");
     else if (!isOn) classes.push("muted");
+    const iconSrc = !permGranted ? 'icons/bell-slash.svg' : (isOn ? 'icons/bell.svg' : 'icons/bell-slash.svg');
     row.innerHTML = `
       <span class="name">
         <button type="button" class="${classes.join(" ")}" data-prayer="${prayer}" aria-pressed="${isOn}">
-          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
-            <path fill="currentColor" d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5a6 6 0 0 0-12 0v5l-2 2h16l-2-2z"/>
-          </svg>
+          <img class="icon-img" src="${iconSrc}" alt="Prayer notify" width="18" height="18" />
         </button>
         <strong>${prayer}</strong>
       </span>
       <span class="time-value">${adjusted}</span>`;
     timesDiv.appendChild(row);
   }
+  updateNextPrayer();
 }
 
 function enableAllPrayers() {
@@ -144,7 +160,79 @@ function updateRowBellStates() {
       btn.classList.remove("muted");
     }
     btn.setAttribute("aria-pressed", String(isOn));
+    const img = btn.querySelector('.icon-img');
+    if (img) img.src = !permGranted ? 'icons/bell-slash.svg' : (isOn ? 'icons/bell.svg' : 'icons/bell-slash.svg');
   });
+}
+
+function parseTimeToDate(timeStr, offsetMin, baseDate = new Date()) {
+  const [h, m] = timeStr.split(":").map(Number);
+  const d = new Date(baseDate);
+  d.setHours(h, m + offsetMin, 0, 0);
+  return d;
+}
+
+function formatCountdown(ms) {
+  if (ms <= 0) return "Now";
+  const totalSec = Math.floor(ms / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  if (h > 0) return `${h}h ${String(m).padStart(2,'0')}m`;
+  return `${m}m ${String(s).padStart(2,'0')}s`;
+}
+
+function updateDayContext() {
+  const now = new Date();
+  const isPhone = window.matchMedia && window.matchMedia('(max-width: 600px)').matches;
+  const dateOpts = isPhone ? { weekday: 'short', month: 'short', day: 'numeric' } : { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' };
+  const dateFmt = new Intl.DateTimeFormat(undefined, dateOpts);
+  const timeFmt = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit' });
+  if (currentDateEl) currentDateEl.textContent = dateFmt.format(now);
+  if (currentTimeEl) currentTimeEl.textContent = timeFmt.format(now);
+}
+
+function findNextPrayer() {
+  const key = todayKey();
+  const baseTimes = timetable.days[key];
+  const offset = cities.cities[selectedCity].offset;
+  const now = new Date();
+  let next = null;
+  for (const prayer in baseTimes) {
+    const at = parseTimeToDate(baseTimes[prayer], offset);
+    if (at > now && (!next || at < next.at)) {
+      next = { name: prayer, at, timeStr: addMinutes(baseTimes[prayer], offset) };
+    }
+  }
+  if (next) return next;
+  // fallback to tomorrow's first
+  const tomorrow = new Date();
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const tkey = String(tomorrow.getDate()).padStart(2, "0") + "-" + String(tomorrow.getMonth() + 1).padStart(2, "0");
+  const tTimes = timetable.days[tkey];
+  if (!tTimes) return null;
+  let first = null;
+  for (const prayer in tTimes) {
+    const at = parseTimeToDate(tTimes[prayer], offset, tomorrow);
+    if (!first || at < first.at) {
+      first = { name: prayer, at, timeStr: addMinutes(tTimes[prayer], offset) };
+    }
+  }
+  return first;
+}
+
+function updateNextPrayer() {
+  const next = findNextPrayer();
+  if (!next) return;
+  if (nextNameEl) nextNameEl.textContent = next.name;
+  if (nextTimeEl) nextTimeEl.textContent = next.timeStr;
+  const ms = next.at - new Date();
+  if (nextCountdownEl) nextCountdownEl.textContent = formatCountdown(ms);
+  // highlight row
+  const prev = timesDiv.querySelector('.time.next');
+  if (prev) prev.classList.remove('next');
+  const row = timesDiv.querySelector(`.time[data-prayer="${next.name}"]`);
+  if (row) row.classList.add('next');
 }
 
 async function enableNotifications() {
@@ -194,7 +282,7 @@ function scheduleNotifications() {
   });
 }
 
-notifyIcon.onclick = enableNotifications;
+if (notifyGlobal) notifyGlobal.onclick = enableNotifications;
 updateNotifyIconState();
 
 if ("serviceWorker" in navigator) {
@@ -208,6 +296,12 @@ setInterval(() => {
   updateNotifyIconState();
   updateRowBellStates();
 }, 60_000);
+
+// live countdown every second
+setInterval(() => {
+  updateDayContext();
+  updateNextPrayer();
+}, 1_000);
 
 
 loadData();
@@ -235,3 +329,17 @@ timesDiv.addEventListener("click", async (e) => {
   updateRowBellStates();
   scheduleNotifications();
 });
+
+function initTheme() {
+  const saved = localStorage.getItem('theme');
+  // Default to dark if no saved theme
+  const shouldDark = saved ? saved === 'dark' : true;
+  document.body.classList.toggle('theme-dark', shouldDark);
+}
+
+if (themeToggle) {
+  themeToggle.onclick = () => {
+    const isDark = document.body.classList.toggle('theme-dark');
+    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+  };
+}

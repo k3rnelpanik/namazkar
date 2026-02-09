@@ -5,24 +5,43 @@
   <title>Namaz Kar?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/mosque.svg" type="image/svg+xml" />
   <meta name="theme-color" content="#0f766e" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Namaz Kar?</h1>
-  <small id="city-info"></small>
+  <header class="topbar">
+    <div class="left">
+      <span id="current-date"></span>
+      <span id="current-time"></span>
+    </div>
+    <div class="right">
+      <button id="notifyGlobal" class="icon-button" type="button" aria-label="Enable notifications" title="Enable notifications">
+        <img class="icon-img" src="icons/bell-slash.svg" alt="Notifications" width="20" height="20" />
+      </button>
+      <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <img class="icon-img" src="icons/dark-mode.svg" alt="Dark mode" width="20" height="20" />
+      </button>
+    </div>
+  </header>
 
-  <div>
-    <label for="citySelect">Region:</label><br />
-    <select id="citySelect"></select>
+  <div class="container">
+    <img src="icons/mosque.svg" alt="Namaz Kar Logo" class="logo" />
+    <h1>Namaz Kar?</h1>
+
+  
+
+  <div class="region">
+    <span id="offset-text" class="offset-text" title="Region offset">+0 min</span>
+    <select id="citySelect" aria-label="Region"></select>
   </div>
 
-  <div class="notify">
-    <button id="notifyIcon" class="icon-button" type="button" aria-label="Enable notifications" title="Enable notifications">
-      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
-        <path fill="currentColor" d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5a6 6 0 0 0-12 0v5l-2 2h16l-2-2z"/>
-      </svg>
-    </button>
+  <div id="next-prayer" class="next-card" aria-live="polite">
+    <div class="row">
+      <strong class="name">Next: <span id="next-name">—</span></strong>
+      <span class="time-value"><span id="next-time">--:--</span></span>
+    </div>
+    <small id="next-countdown">—</small>
   </div>
 
   <div class="times" id="times"></div>
@@ -31,6 +50,7 @@
     <p><small>
       Times are based on the official timetable published by Dar-ul-Uloom Rahimiyyah, Bandipora.
     </small></p>
+  </div>
   </div>
 
   <script src="app.js"></script>

@@ -8,6 +8,10 @@ self.addEventListener("install", e => {
         "/index.html",
         "/styles.css",
         "/app.js",
+        "/icons/dark-mode.svg",
+        "/icons/mosque.svg",
+        "/icons/bell.svg",
+        "/icons/bell-slash.svg",
         "/manifest.json",
         "/data/table.json",
         "/data/offset.json"

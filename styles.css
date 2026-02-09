@@ -2,8 +2,9 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 1rem;
-  background: #f9fafb;
-  color: #111;
+  background: var(--bg);
+  color: var(--fg);
+  display: block;
 }
 h1 { margin-bottom: 0.5rem; }
 select, button {
@@ -11,32 +12,130 @@ select, button {
   font-size: 1rem;
   margin-top: 0.5rem;
 }
+/* Color system */
+:root {
+  --bg: #f9fafb;
+  --fg: #111111;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent: #0f766e;
+  --card: #ffffff;
+  --highlight: #ecfeff;
+}
+.theme-dark {
+  --bg: #141a22; /* lighter dark background */
+  --fg: #e8eaed; /* softer foreground */
+  --muted: #b0b8c0; /* muted text */
+  --border: #1f2a33; /* gentle borders */
+  --accent: #22c55e; /* accent */
+  --card: #1b222c; /* card background */
+  --highlight: #0f2a1e; /* row highlight */
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.topbar .left, .topbar .right { display: flex; gap: 0.5rem; align-items: center; }
+.topbar .right { gap: 0.25rem; }
+.topbar #current-date, .topbar #current-time { color: var(--muted); }
+/* Logo styling */
+.logo { width: 40px; height: 40px; margin-bottom: 0.4rem; }
 .times {
   margin-top: 1rem;
 }
 .time {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0;
-  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 0.4rem 0;
+  transition: background-color 180ms ease, border-color 180ms ease;
 }
+.time.next { background: var(--highlight); border-color: var(--accent); }
 .settings {
   margin-top: 1.5rem;
   padding-top: 1rem;
-  border-top: 2px solid #ccc;
+  border-top: 2px solid var(--border);
 }
-small { color: #555; }
+small { color: var(--muted); }
 .notify { margin-top: 0.75rem; }
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.5rem 0 0.75rem;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  background: var(--card);
+  color: var(--fg);
+  cursor: pointer;
+}
+.chip-sm {
+  padding: 0.15rem 0.5rem;
+  font-size: 0.75rem;
+}
+.region { display: flex; flex-direction: column; align-items: center; gap: 0.25rem; }
+#offset-text {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+#citySelect {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--fg);
+  min-width: 140px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  /* Hide native arrow and draw a chevron that stays inside */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  overflow: hidden;
+  padding: 0.45rem 2.2rem 0.45rem 0.9rem; /* space for chevron on the right */
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+  /* CSS chevron using gradients (theme-aware via var(--muted)) */
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%),
+    linear-gradient(to right, var(--border), var(--border));
+  background-size: 6px 6px, 6px 6px, 1px 18px;
+  background-position: right 12px center, right 6px center, right 28px center;
+}
+#citySelect::-ms-expand { display: none; }
+#citySelect option { border-radius: 8px; }
+#citySelect:focus { outline: none; border-color: var(--accent); }
 .icon-button {
   background: none;
   border: none;
   padding: 0;
-  color: #111;
+  color: var(--fg);
   cursor: pointer;
   line-height: 1;
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: color 180ms ease, transform 120ms ease;
 }
-.icon-button:not(.disabled):hover { color: #0f766e; }
+.icon-button:not(.disabled):hover { color: var(--accent); }
+.icon-button:not(.disabled):active { transform: scale(0.97); }
 .icon-button.disabled {
   color: #9ca3af; /* gray */
 }
@@ -54,3 +153,43 @@ small { color: #555; }
 .icon-button.muted { color: #9ca3af; }
 .time .name { display: flex; align-items: center; gap: 0.4rem; }
 .time .time-value { display: flex; align-items: center; gap: 0.4rem; }
+/* Icon sizes (fallback if not set inline) */
+.prayer-notify .icon-img { width: 18px; height: 18px; }
+.topbar #notifyGlobal .icon-img { width: 20px; height: 20px; }
+/* Larger readable text for prayer rows */
+.time .name strong { font-size: 1.05rem; }
+.time .time-value { font-size: 1.125rem; }
+
+/* Icon inversion for dark mode visibility */
+.icon-img {
+  display: block;
+  filter: invert(0);
+  transition: filter 120ms ease;
+}
+.theme-dark .icon-img { filter: invert(1); }
+
+/* Invert the mosque logo for better visibility in dark mode */
+.theme-dark .logo { filter: invert(1); }
+
+.next-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card);
+  padding: 0.6rem 0.8rem;
+  margin-top: 0.75rem;
+  text-align: left;
+}
+.next-card .row { display: flex; justify-content: space-between; align-items: baseline; }
+.next-card strong.name { font-size: 1.15rem; }
+.next-card .time-value { font-size: 1.25rem; }
+.next-card small { color: var(--muted); }
+
+/* Mobile-first tweaks */
+@media (min-width: 600px) {
+  body { padding: 1.25rem; }
+  .next-card { padding: 0.8rem 1rem; }
+}
+@media (max-width: 600px) {
+  .topbar .left { flex-direction: column; align-items: flex-start; }
+  #current-date, #current-time { display: block; }
+}
