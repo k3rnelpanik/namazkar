@@ -6,6 +6,7 @@ self.addEventListener("install", e => {
       c.addAll([
         "/",
         "/index.html",
+        "/styles.css",
         "/app.js",
         "/manifest.json",
         "/data/table.json",
@@ -37,8 +38,10 @@ self.addEventListener("message", async e => {
     String(now.getMonth() + 1).padStart(2, "0");
 
   const times = table.days[key];
+  const enabled = e.data.enabledPrayers || {};
 
   for (const prayer in times) {
+    if (!enabled[prayer]) continue;
     const [h, m] = times[prayer].split(":").map(Number);
     const fireAt = new Date();
     fireAt.setHours(h, m + offset, 0, 0);
