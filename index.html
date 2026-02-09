@@ -35,6 +35,31 @@
       border-top: 2px solid #ccc;
     }
     small { color: #555; }
+    .notify { margin-top: 0.75rem; }
+    .icon-button {
+      background: none;
+      border: none;
+      padding: 0;
+      color: #111;
+      cursor: pointer;
+      line-height: 1;
+      position: relative;
+    }
+    .icon-button:not(.disabled):hover { color: #0f766e; }
+    .icon-button.disabled {
+      color: #9ca3af; /* gray */
+    }
+    .icon-button.disabled::after {
+      content: "";
+      position: absolute;
+      left: 2px;
+      right: 2px;
+      top: 50%;
+      height: 2px;
+      background: currentColor;
+      transform: rotate(-15deg);
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
@@ -46,10 +71,17 @@
     <select id="citySelect"></select>
   </div>
 
+  <div class="notify">
+    <button id="notifyIcon" class="icon-button" type="button" aria-label="Enable notifications" title="Enable notifications">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor" d="M12 22a2 2 0 0 0 2-2h-4a2 2 0 0 0 2 2zm6-6v-5a6 6 0 0 0-12 0v5l-2 2h16l-2-2z"/>
+      </svg>
+    </button>
+  </div>
+
   <div class="times" id="times"></div>
 
   <div class="settings">
-    <button id="notifyBtn">Enable Notifications</button>
     <p><small>
       Times are based on the official timetable published by Dar-ul-Uloom Rahimiyyah, Bandipora.
     </small></p>

@@ -4,7 +4,25 @@ let selectedCity;
 const timesDiv = document.getElementById("times");
 const citySelect = document.getElementById("citySelect");
 const cityInfo = document.getElementById("city-info");
-const notifyBtn = document.getElementById("notifyBtn");
+const notifyIcon = document.getElementById("notifyIcon");
+
+function updateNotifyIconState() {
+  if (!notifyIcon) return;
+  const supported = "Notification" in window;
+  if (!supported) {
+    notifyIcon.classList.add("disabled");
+    notifyIcon.classList.remove("enabled");
+    notifyIcon.title = "Notifications not supported";
+    notifyIcon.setAttribute("aria-disabled", "true");
+    return;
+  }
+  const perm = Notification.permission;
+  const isEnabled = perm === "granted";
+  notifyIcon.classList.toggle("disabled", !isEnabled);
+  notifyIcon.classList.toggle("enabled", isEnabled);
+  notifyIcon.title = isEnabled ? "Notifications enabled" : "Enable notifications";
+  notifyIcon.setAttribute("aria-disabled", isEnabled ? "false" : "true");
+}
 
 async function loadData() {
   timetable = await fetch("data/table.json").then(r => {
@@ -90,6 +108,7 @@ async function enableNotifications() {
   if (Notification.permission === "granted") {
     alert("Notifications are already enabled.");
     scheduleNotifications();
+    updateNotifyIconState();
     return;
   }
 
@@ -97,8 +116,10 @@ async function enableNotifications() {
   if (perm === "granted") {
     alert("Notifications enabled.");
     scheduleNotifications();
+    updateNotifyIconState();
   } else {
     alert("Notifications not enabled.");
+    updateNotifyIconState();
   }
 }
 
@@ -114,7 +135,8 @@ function scheduleNotifications() {
   });
 }
 
-notifyBtn.onclick = enableNotifications;
+notifyIcon.onclick = enableNotifications;
+updateNotifyIconState();
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("persist.js");
@@ -124,6 +146,7 @@ setInterval(() => {
   if (Notification.permission === "granted") {
     scheduleNotifications();
   }
+  updateNotifyIconState();
 }, 60_000);
 
 
