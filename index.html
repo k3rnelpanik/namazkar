@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Namaz Kar?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0f766e" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f9fafb;
+      color: #111;
+    }
+    h1 { margin-bottom: 0.5rem; }
+    select, button {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+    .times {
+      margin-top: 1rem;
+    }
+    .time {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .settings {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 2px solid #ccc;
+    }
+    small { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Namaz Kar?</h1>
+  <small id="city-info"></small>
+
+  <div>
+    <label for="citySelect">Region:</label><br />
+    <select id="citySelect"></select>
+  </div>
+
+  <div class="times" id="times"></div>
+
+  <div class="settings">
+    <button id="notifyBtn">Enable Notifications</button>
+    <p><small>
+      Times are based on the official timetable published by Dar-ul-Uloom Rahimiyyah, Bandipora.
+    </small></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

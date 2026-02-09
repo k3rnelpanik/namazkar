@@ -1,0 +1,10 @@
+{
+  "base_city": "Srinagar",
+  "cities": {
+    "Srinagar": { "offset": 0 },
+    "Varmul": { "offset": 1 },
+    "Sopur": { "offset": 1 },
+    "Bandipur": { "offset": 2 },
+    "Pulwom": { "offset": -1 }
+  }
+}

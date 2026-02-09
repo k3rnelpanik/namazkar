@@ -1,0 +1,2939 @@
+{
+  "meta": {
+    "authority": "Dar-ul-Uloom Rahimiyyah",
+    "region": "Kashmir",
+    "timezone": "Asia/Kolkata",
+    "dst": false,
+    "perpetual": true
+  },
+  "days": {
+    "01-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:37",
+      "Pishan": "12:35",
+      "Digar": "3:55",
+      "Shaam/Iftar": "5:36",
+      "Khoftan": "7:01"
+    },
+    "02-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:37",
+      "Pishan": "12:35",
+      "Digar": "3:56",
+      "Shaam/Iftar": "5:37",
+      "Khoftan": "7:02"
+    },
+    "03-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:37",
+      "Pishan": "12:36",
+      "Digar": "3:57",
+      "Shaam/Iftar": "5:37",
+      "Khoftan": "7:03"
+    },
+    "04-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:37",
+      "Pishan": "12:36",
+      "Digar": "3:58",
+      "Shaam/Iftar": "5:38",
+      "Khoftan": "7:04"
+    },
+    "05-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:37",
+      "Pishan": "12:37",
+      "Digar": "3:59",
+      "Shaam/Iftar": "5:39",
+      "Khoftan": "7:05"
+    },
+    "06-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:37",
+      "Pishan": "12:37",
+      "Digar": "4:00",
+      "Shaam/Iftar": "5:40",
+      "Khoftan": "7:05"
+    },
+    "07-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:37",
+      "Pishan": "12:38",
+      "Digar": "4:01",
+      "Shaam/Iftar": "5:40",
+      "Khoftan": "7:06"
+    },
+    "08-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:37",
+      "Pishan": "12:38",
+      "Digar": "4:02",
+      "Shaam/Iftar": "5:41",
+      "Khoftan": "7:07"
+    },
+    "09-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:37",
+      "Pishan": "12:39",
+      "Digar": "4:03",
+      "Shaam/Iftar": "5:42",
+      "Khoftan": "7:08"
+    },
+    "10-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:37",
+      "Pishan": "12:39",
+      "Digar": "4:03",
+      "Shaam/Iftar": "5:43",
+      "Khoftan": "7:08"
+    },
+    "11-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:39",
+      "Digar": "4:04",
+      "Shaam/Iftar": "5:44",
+      "Khoftan": "7:09"
+    },
+    "12-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:39",
+      "Digar": "4:05",
+      "Shaam/Iftar": "5:45",
+      "Khoftan": "7:10"
+    },
+    "13-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:40",
+      "Digar": "4:06",
+      "Shaam/Iftar": "5:46",
+      "Khoftan": "7:11"
+    },
+    "14-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:40",
+      "Digar": "4:07",
+      "Shaam/Iftar": "5:47",
+      "Khoftan": "7:12"
+    },
+    "15-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:41",
+      "Digar": "4:08",
+      "Shaam/Iftar": "5:48",
+      "Khoftan": "7:12"
+    },
+    "16-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:10",
+      "Sunrise": "7:36",
+      "Pishan": "12:41",
+      "Digar": "4:09",
+      "Shaam/Iftar": "5:49",
+      "Khoftan": "7:13"
+    },
+    "17-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:09",
+      "Shaam/Iftar": "5:50",
+      "Khoftan": "7:14"
+    },
+    "18-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:10",
+      "Shaam/Iftar": "5:51",
+      "Khoftan": "7:15"
+    },
+    "19-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:11",
+      "Shaam/Iftar": "5:52",
+      "Khoftan": "7:16"
+    },
+    "20-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:09",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:12",
+      "Shaam/Iftar": "5:52",
+      "Khoftan": "7:17"
+    },
+    "21-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:13",
+      "Shaam/Iftar": "5:53",
+      "Khoftan": "7:18"
+    },
+    "22-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:35",
+      "Pishan": "12:42",
+      "Digar": "4:14",
+      "Shaam/Iftar": "5:54",
+      "Khoftan": "7:18"
+    },
+    "23-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:34",
+      "Pishan": "12:43",
+      "Digar": "4:15",
+      "Shaam/Iftar": "5:55",
+      "Khoftan": "7:19"
+    },
+    "24-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:33",
+      "Pishan": "12:43",
+      "Digar": "4:16",
+      "Shaam/Iftar": "5:56",
+      "Khoftan": "7:20"
+    },
+    "25-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:33",
+      "Pishan": "12:43",
+      "Digar": "4:17",
+      "Shaam/Iftar": "5:57",
+      "Khoftan": "7:21"
+    },
+    "26-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:07",
+      "Sunrise": "7:33",
+      "Pishan": "12:44",
+      "Digar": "4:18",
+      "Shaam/Iftar": "5:58",
+      "Khoftan": "7:21"
+    },
+    "27-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:07",
+      "Sunrise": "7:32",
+      "Pishan": "12:44",
+      "Digar": "4:19",
+      "Shaam/Iftar": "5:59",
+      "Khoftan": "7:22"
+    },
+    "28-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:06",
+      "Sunrise": "7:31",
+      "Pishan": "12:44",
+      "Digar": "4:20",
+      "Shaam/Iftar": "6:00",
+      "Khoftan": "7:23"
+    },
+    "29-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:06",
+      "Sunrise": "7:30",
+      "Pishan": "12:44",
+      "Digar": "4:21",
+      "Shaam/Iftar": "6:01",
+      "Khoftan": "7:24"
+    },
+    "30-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:05",
+      "Sunrise": "7:30",
+      "Pishan": "12:45",
+      "Digar": "4:22",
+      "Shaam/Iftar": "6:02",
+      "Khoftan": "7:25"
+    },
+    "31-01": {
+      "Subah/Ikhtitam-i-Sahr": "6:04",
+      "Sunrise": "7:30",
+      "Pishan": "12:45",
+      "Digar": "4:23",
+      "Shaam/Iftar": "6:03",
+      "Khoftan": "7:26"
+    },
+    "01-02": {
+      "Subah/Ikhtitam-i-Sahr": "6:03",
+      "Sunrise": "7:29",
+      "Pishan": "12:45",
+      "Digar": "4:23",
+      "Shaam/Iftar": "6:04",
+      "Khoftan": "7:27"
+    },
+    "02-02": {
+      "Subah/Ikhtitam-i-Sahr": "6:03",
+      "Sunrise": "7:28",
+      "Pishan": "12:45",
+      "Digar": "4:24",
+      "Shaam/Iftar": "6:05",
+      "Khoftan": "7:28"
+    },
+    "03-02": {
+      "Subah/Ikhtitam-i-Sahr": "6:02",
+      "Sunrise": "7:27",
+      "Pishan": "12:45",
+      "Digar": "4:25",
+      "Shaam/Iftar": "6:07",
+      "Khoftan": "7:29"
+    },
+    "04-02": {
+      "Subah/Ikhtitam-i-Sahr": "6:01",
+      "Sunrise": "7:26",
+      "Pishan": "12:45",
+      "Digar": "4:26",
+      "Shaam/Iftar": "6:08",
+      "Khoftan": "7:29"
+    },
+    "05-02": {
+      "Subah/Ikhtitam-i-Sahr": "6:00",
+      "Sunrise": "7:25",
+      "Pishan": "12:45",
+      "Digar": "4:27",
+      "Shaam/Iftar": "6:09",
+      "Khoftan": "7:30"
+    },
+    "06-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:59",
+      "Sunrise": "7:25",
+      "Pishan": "12:45",
+      "Digar": "4:28",
+      "Shaam/Iftar": "6:09",
+      "Khoftan": "7:30"
+    },
+    "07-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:59",
+      "Sunrise": "7:24",
+      "Pishan": "12:45",
+      "Digar": "4:28",
+      "Shaam/Iftar": "6:10",
+      "Khoftan": "7:31"
+    },
+    "08-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:58",
+      "Sunrise": "7:23",
+      "Pishan": "12:45",
+      "Digar": "4:29",
+      "Shaam/Iftar": "6:11",
+      "Khoftan": "7:32"
+    },
+    "09-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:58",
+      "Sunrise": "7:23",
+      "Pishan": "12:45",
+      "Digar": "4:30",
+      "Shaam/Iftar": "6:12",
+      "Khoftan": "7:32"
+    },
+    "10-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:57",
+      "Sunrise": "7:22",
+      "Pishan": "12:45",
+      "Digar": "4:31",
+      "Shaam/Iftar": "6:12",
+      "Khoftan": "7:33"
+    },
+    "11-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:57",
+      "Sunrise": "7:21",
+      "Pishan": "12:45",
+      "Digar": "4:32",
+      "Shaam/Iftar": "6:13",
+      "Khoftan": "7:35"
+    },
+    "12-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:56",
+      "Sunrise": "7:20",
+      "Pishan": "12:45",
+      "Digar": "4:33",
+      "Shaam/Iftar": "6:14",
+      "Khoftan": "7:36"
+    },
+    "13-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:55",
+      "Sunrise": "7:20",
+      "Pishan": "12:45",
+      "Digar": "4:34",
+      "Shaam/Iftar": "6:15",
+      "Khoftan": "7:36"
+    },
+    "14-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:54",
+      "Sunrise": "7:19",
+      "Pishan": "12:45",
+      "Digar": "4:35",
+      "Shaam/Iftar": "6:16",
+      "Khoftan": "7:37"
+    },
+    "15-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:53",
+      "Sunrise": "7:18",
+      "Pishan": "12:45",
+      "Digar": "4:36",
+      "Shaam/Iftar": "6:17",
+      "Khoftan": "7:38"
+    },
+    "16-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:52",
+      "Sunrise": "7:17",
+      "Pishan": "12:45",
+      "Digar": "4:37",
+      "Shaam/Iftar": "6:18",
+      "Khoftan": "7:39"
+    },
+    "17-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:51",
+      "Sunrise": "7:16",
+      "Pishan": "12:45",
+      "Digar": "4:38",
+      "Shaam/Iftar": "6:19",
+      "Khoftan": "7:40"
+    },
+    "18-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:50",
+      "Sunrise": "7:14",
+      "Pishan": "12:45",
+      "Digar": "4:39",
+      "Shaam/Iftar": "6:20",
+      "Khoftan": "7:41"
+    },
+    "19-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:49",
+      "Sunrise": "7:13",
+      "Pishan": "12:45",
+      "Digar": "4:40",
+      "Shaam/Iftar": "6:21",
+      "Khoftan": "7:41"
+    },
+    "20-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:48",
+      "Sunrise": "7:12",
+      "Pishan": "12:45",
+      "Digar": "4:41",
+      "Shaam/Iftar": "6:22",
+      "Khoftan": "7:42"
+    },
+    "21-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:47",
+      "Sunrise": "7:11",
+      "Pishan": "12:45",
+      "Digar": "4:42",
+      "Shaam/Iftar": "6:23",
+      "Khoftan": "7:43"
+    },
+    "22-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:46",
+      "Sunrise": "7:09",
+      "Pishan": "12:45",
+      "Digar": "4:43",
+      "Shaam/Iftar": "6:24",
+      "Khoftan": "7:44"
+    },
+    "23-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:45",
+      "Sunrise": "7:08",
+      "Pishan": "12:45",
+      "Digar": "4:44",
+      "Shaam/Iftar": "6:24",
+      "Khoftan": "7:44"
+    },
+    "24-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:44",
+      "Sunrise": "7:07",
+      "Pishan": "12:45",
+      "Digar": "4:44",
+      "Shaam/Iftar": "6:25",
+      "Khoftan": "7:45"
+    },
+    "25-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:42",
+      "Sunrise": "7:06",
+      "Pishan": "12:45",
+      "Digar": "4:44",
+      "Shaam/Iftar": "6:26",
+      "Khoftan": "7:46"
+    },
+    "26-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:41",
+      "Sunrise": "7:04",
+      "Pishan": "12:45",
+      "Digar": "4:45",
+      "Shaam/Iftar": "6:27",
+      "Khoftan": "7:47"
+    },
+    "27-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:40",
+      "Sunrise": "7:03",
+      "Pishan": "12:45",
+      "Digar": "4:45",
+      "Shaam/Iftar": "6:28",
+      "Khoftan": "7:48"
+    },
+    "28-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:39",
+      "Sunrise": "7:02",
+      "Pishan": "12:44",
+      "Digar": "4:46",
+      "Shaam/Iftar": "6:29",
+      "Khoftan": "7:49"
+    },
+    "29-02": {
+      "Subah/Ikhtitam-i-Sahr": "5:38",
+      "Sunrise": "7:01",
+      "Pishan": "12:44",
+      "Digar": "4:47",
+      "Shaam/Iftar": "6:30",
+      "Khoftan": "7:50"
+    },
+    "01-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:38",
+      "Sunrise": "7:01",
+      "Pishan": "12:44",
+      "Digar": "4:47",
+      "Shaam/Iftar": "6:30",
+      "Khoftan": "7:50"
+    },
+    "02-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:37",
+      "Sunrise": "6:59",
+      "Pishan": "12:44",
+      "Digar": "4:48",
+      "Shaam/Iftar": "6:31",
+      "Khoftan": "7:51"
+    },
+    "03-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:36",
+      "Sunrise": "6:58",
+      "Pishan": "12:43",
+      "Digar": "4:49",
+      "Shaam/Iftar": "6:32",
+      "Khoftan": "7:52"
+    },
+    "04-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:34",
+      "Sunrise": "6:57",
+      "Pishan": "12:43",
+      "Digar": "4:49",
+      "Shaam/Iftar": "6:33",
+      "Khoftan": "7:53"
+    },
+    "05-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:33",
+      "Sunrise": "6:56",
+      "Pishan": "12:43",
+      "Digar": "4:50",
+      "Shaam/Iftar": "6:33",
+      "Khoftan": "7:54"
+    },
+    "06-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:31",
+      "Sunrise": "6:55",
+      "Pishan": "12:43",
+      "Digar": "4:51",
+      "Shaam/Iftar": "6:34",
+      "Khoftan": "7:54"
+    },
+    "07-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:30",
+      "Sunrise": "6:53",
+      "Pishan": "12:43",
+      "Digar": "4:52",
+      "Shaam/Iftar": "6:34",
+      "Khoftan": "7:55"
+    },
+    "08-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:28",
+      "Sunrise": "6:52",
+      "Pishan": "12:42",
+      "Digar": "4:52",
+      "Shaam/Iftar": "6:35",
+      "Khoftan": "7:55"
+    },
+    "09-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:27",
+      "Sunrise": "6:51",
+      "Pishan": "12:42",
+      "Digar": "4:53",
+      "Shaam/Iftar": "6:36",
+      "Khoftan": "7:56"
+    },
+    "10-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:26",
+      "Sunrise": "6:50",
+      "Pishan": "12:42",
+      "Digar": "4:54",
+      "Shaam/Iftar": "6:37",
+      "Khoftan": "7:57"
+    },
+    "11-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:25",
+      "Sunrise": "6:48",
+      "Pishan": "12:42",
+      "Digar": "4:55",
+      "Shaam/Iftar": "6:38",
+      "Khoftan": "7:58"
+    },
+    "12-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:24",
+      "Sunrise": "6:47",
+      "Pishan": "12:41",
+      "Digar": "4:55",
+      "Shaam/Iftar": "6:38",
+      "Khoftan": "7:59"
+    },
+    "13-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:23",
+      "Sunrise": "6:45",
+      "Pishan": "12:41",
+      "Digar": "4:56",
+      "Shaam/Iftar": "6:39",
+      "Khoftan": "8:00"
+    },
+    "14-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:20",
+      "Sunrise": "6:44",
+      "Pishan": "12:41",
+      "Digar": "4:56",
+      "Shaam/Iftar": "6:40",
+      "Khoftan": "8:01"
+    },
+    "15-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:19",
+      "Sunrise": "6:43",
+      "Pishan": "12:40",
+      "Digar": "4:57",
+      "Shaam/Iftar": "6:41",
+      "Khoftan": "8:02"
+    },
+    "16-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:18",
+      "Sunrise": "6:42",
+      "Pishan": "12:40",
+      "Digar": "4:57",
+      "Shaam/Iftar": "6:42",
+      "Khoftan": "8:03"
+    },
+    "17-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:16",
+      "Sunrise": "6:41",
+      "Pishan": "12:39",
+      "Digar": "4:58",
+      "Shaam/Iftar": "6:42",
+      "Khoftan": "8:04"
+    },
+    "18-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:15",
+      "Sunrise": "6:39",
+      "Pishan": "12:39",
+      "Digar": "4:58",
+      "Shaam/Iftar": "6:43",
+      "Khoftan": "8:04"
+    },
+    "19-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:14",
+      "Sunrise": "6:37",
+      "Pishan": "12:39",
+      "Digar": "4:58",
+      "Shaam/Iftar": "6:44",
+      "Khoftan": "8:05"
+    },
+    "20-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:12",
+      "Sunrise": "6:36",
+      "Pishan": "12:39",
+      "Digar": "4:59",
+      "Shaam/Iftar": "6:45",
+      "Khoftan": "8:06"
+    },
+    "21-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:11",
+      "Sunrise": "6:35",
+      "Pishan": "12:38",
+      "Digar": "4:59",
+      "Shaam/Iftar": "6:46",
+      "Khoftan": "8:06"
+    },
+    "22-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:10",
+      "Sunrise": "6:33",
+      "Pishan": "12:38",
+      "Digar": "4:59",
+      "Shaam/Iftar": "6:47",
+      "Khoftan": "8:07"
+    },
+    "23-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:08",
+      "Sunrise": "6:32",
+      "Pishan": "12:38",
+      "Digar": "4:59",
+      "Shaam/Iftar": "6:48",
+      "Khoftan": "8:08"
+    },
+    "24-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:06",
+      "Sunrise": "6:31",
+      "Pishan": "12:38",
+      "Digar": "5:00",
+      "Shaam/Iftar": "6:48",
+      "Khoftan": "8:09"
+    },
+    "25-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:05",
+      "Sunrise": "6:29",
+      "Pishan": "12:38",
+      "Digar": "5:00",
+      "Shaam/Iftar": "6:49",
+      "Khoftan": "8:10"
+    },
+    "26-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:04",
+      "Sunrise": "6:28",
+      "Pishan": "12:37",
+      "Digar": "5:01",
+      "Shaam/Iftar": "6:50",
+      "Khoftan": "8:11"
+    },
+    "27-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:02",
+      "Sunrise": "6:27",
+      "Pishan": "12:36",
+      "Digar": "5:02",
+      "Shaam/Iftar": "6:50",
+      "Khoftan": "8:12"
+    },
+    "28-03": {
+      "Subah/Ikhtitam-i-Sahr": "5:00",
+      "Sunrise": "6:25",
+      "Pishan": "12:36",
+      "Digar": "5:02",
+      "Shaam/Iftar": "6:51",
+      "Khoftan": "8:13"
+    },
+    "29-03": {
+      "Subah/Ikhtitam-i-Sahr": "4:58",
+      "Sunrise": "6:23",
+      "Pishan": "12:36",
+      "Digar": "5:03",
+      "Shaam/Iftar": "6:52",
+      "Khoftan": "8:14"
+    },
+    "30-03": {
+      "Subah/Ikhtitam-i-Sahr": "4:56",
+      "Sunrise": "6:22",
+      "Pishan": "12:36",
+      "Digar": "5:04",
+      "Shaam/Iftar": "6:53",
+      "Khoftan": "8:15"
+    },
+    "31-03": {
+      "Subah/Ikhtitam-i-Sahr": "4:56",
+      "Sunrise": "6:21",
+      "Pishan": "12:36",
+      "Digar": "5:05",
+      "Shaam/Iftar": "6:54",
+      "Khoftan": "8:16"
+    },
+    "01-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:55",
+      "Sunrise": "6:19",
+      "Pishan": "12:35",
+      "Digar": "5:05",
+      "Shaam/Iftar": "6:54",
+      "Khoftan": "8:16"
+    },
+    "02-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:53",
+      "Sunrise": "6:18",
+      "Pishan": "12:35",
+      "Digar": "5:05",
+      "Shaam/Iftar": "6:55",
+      "Khoftan": "8:17"
+    },
+    "03-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:52",
+      "Sunrise": "6:17",
+      "Pishan": "12:35",
+      "Digar": "5:05",
+      "Shaam/Iftar": "6:55",
+      "Khoftan": "8:18"
+    },
+    "04-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:50",
+      "Sunrise": "6:16",
+      "Pishan": "12:34",
+      "Digar": "5:06",
+      "Shaam/Iftar": "6:56",
+      "Khoftan": "8:19"
+    },
+    "05-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:48",
+      "Sunrise": "6:14",
+      "Pishan": "12:34",
+      "Digar": "5:06",
+      "Shaam/Iftar": "6:57",
+      "Khoftan": "8:20"
+    },
+    "06-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:47",
+      "Sunrise": "6:13",
+      "Pishan": "12:34",
+      "Digar": "5:07",
+      "Shaam/Iftar": "6:57",
+      "Khoftan": "8:21"
+    },
+    "07-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:45",
+      "Sunrise": "6:12",
+      "Pishan": "12:34",
+      "Digar": "5:07",
+      "Shaam/Iftar": "6:58",
+      "Khoftan": "8:22"
+    },
+    "08-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:43",
+      "Sunrise": "6:11",
+      "Pishan": "12:33",
+      "Digar": "5:08",
+      "Shaam/Iftar": "6:59",
+      "Khoftan": "8:23"
+    },
+    "09-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:42",
+      "Sunrise": "6:09",
+      "Pishan": "12:33",
+      "Digar": "5:08",
+      "Shaam/Iftar": "7:00",
+      "Khoftan": "8:24"
+    },
+    "10-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:41",
+      "Sunrise": "6:08",
+      "Pishan": "12:33",
+      "Digar": "5:09",
+      "Shaam/Iftar": "7:01",
+      "Khoftan": "8:25"
+    },
+    "11-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:39",
+      "Sunrise": "6:06",
+      "Pishan": "12:33",
+      "Digar": "5:09",
+      "Shaam/Iftar": "7:01",
+      "Khoftan": "8:26"
+    },
+    "12-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:38",
+      "Sunrise": "6:05",
+      "Pishan": "12:32",
+      "Digar": "5:10",
+      "Shaam/Iftar": "7:02",
+      "Khoftan": "8:27"
+    },
+    "13-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:36",
+      "Sunrise": "6:04",
+      "Pishan": "12:32",
+      "Digar": "5:10",
+      "Shaam/Iftar": "7:03",
+      "Khoftan": "8:28"
+    },
+    "14-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:34",
+      "Sunrise": "6:02",
+      "Pishan": "12:32",
+      "Digar": "5:10",
+      "Shaam/Iftar": "7:04",
+      "Khoftan": "8:29"
+    },
+    "15-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:33",
+      "Sunrise": "6:01",
+      "Pishan": "12:32",
+      "Digar": "5:11",
+      "Shaam/Iftar": "7:05",
+      "Khoftan": "8:30"
+    },
+    "16-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:32",
+      "Sunrise": "5:58",
+      "Pishan": "12:31",
+      "Digar": "5:11",
+      "Shaam/Iftar": "7:05",
+      "Khoftan": "8:31"
+    },
+    "17-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:31",
+      "Sunrise": "5:57",
+      "Pishan": "12:31",
+      "Digar": "5:12",
+      "Shaam/Iftar": "7:06",
+      "Khoftan": "8:32"
+    },
+    "18-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:30",
+      "Sunrise": "5:56",
+      "Pishan": "12:31",
+      "Digar": "5:12",
+      "Shaam/Iftar": "7:07",
+      "Khoftan": "8:33"
+    },
+    "19-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:28",
+      "Sunrise": "5:55",
+      "Pishan": "12:30",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:08",
+      "Khoftan": "8:34"
+    },
+    "20-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:27",
+      "Sunrise": "5:55",
+      "Pishan": "12:30",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:09",
+      "Khoftan": "8:35"
+    },
+    "21-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:25",
+      "Sunrise": "5:53",
+      "Pishan": "12:30",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:10",
+      "Khoftan": "8:36"
+    },
+    "22-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:23",
+      "Sunrise": "5:52",
+      "Pishan": "12:30",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:10",
+      "Khoftan": "8:37"
+    },
+    "23-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:22",
+      "Sunrise": "5:51",
+      "Pishan": "12:30",
+      "Digar": "5:14",
+      "Shaam/Iftar": "7:11",
+      "Khoftan": "8:38"
+    },
+    "24-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:21",
+      "Sunrise": "5:50",
+      "Pishan": "12:29",
+      "Digar": "5:15",
+      "Shaam/Iftar": "7:12",
+      "Khoftan": "8:39"
+    },
+    "25-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:20",
+      "Sunrise": "5:49",
+      "Pishan": "12:29",
+      "Digar": "5:15",
+      "Shaam/Iftar": "7:13",
+      "Khoftan": "8:40"
+    },
+    "26-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:19",
+      "Sunrise": "5:48",
+      "Pishan": "12:29",
+      "Digar": "5:16",
+      "Shaam/Iftar": "7:14",
+      "Khoftan": "8:41"
+    },
+    "27-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:17",
+      "Sunrise": "5:47",
+      "Pishan": "12:29",
+      "Digar": "5:16",
+      "Shaam/Iftar": "7:15",
+      "Khoftan": "8:42"
+    },
+    "28-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:16",
+      "Sunrise": "5:46",
+      "Pishan": "12:28",
+      "Digar": "5:16",
+      "Shaam/Iftar": "7:15",
+      "Khoftan": "8:43"
+    },
+    "29-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:14",
+      "Sunrise": "5:45",
+      "Pishan": "12:28",
+      "Digar": "5:17",
+      "Shaam/Iftar": "7:16",
+      "Khoftan": "8:44"
+    },
+    "30-04": {
+      "Subah/Ikhtitam-i-Sahr": "4:13",
+      "Sunrise": "5:44",
+      "Pishan": "12:28",
+      "Digar": "5:17",
+      "Shaam/Iftar": "7:16",
+      "Khoftan": "8:45"
+    },
+    "01-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:12",
+      "Sunrise": "5:43",
+      "Pishan": "12:28",
+      "Digar": "5:17",
+      "Shaam/Iftar": "7:17",
+      "Khoftan": "8:47"
+    },
+    "02-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:10",
+      "Sunrise": "5:42",
+      "Pishan": "12:28",
+      "Digar": "5:18",
+      "Shaam/Iftar": "7:17",
+      "Khoftan": "8:48"
+    },
+    "03-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:08",
+      "Sunrise": "5:41",
+      "Pishan": "12:28",
+      "Digar": "5:18",
+      "Shaam/Iftar": "7:18",
+      "Khoftan": "8:49"
+    },
+    "04-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:07",
+      "Sunrise": "5:40",
+      "Pishan": "12:28",
+      "Digar": "5:18",
+      "Shaam/Iftar": "7:19",
+      "Khoftan": "8:50"
+    },
+    "05-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:06",
+      "Sunrise": "5:39",
+      "Pishan": "12:28",
+      "Digar": "5:19",
+      "Shaam/Iftar": "7:20",
+      "Khoftan": "8:51"
+    },
+    "06-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:05",
+      "Sunrise": "5:38",
+      "Pishan": "12:28",
+      "Digar": "5:19",
+      "Shaam/Iftar": "7:21",
+      "Khoftan": "8:52"
+    },
+    "07-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:03",
+      "Sunrise": "5:37",
+      "Pishan": "12:28",
+      "Digar": "5:19",
+      "Shaam/Iftar": "7:21",
+      "Khoftan": "8:53"
+    },
+    "08-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:02",
+      "Sunrise": "5:36",
+      "Pishan": "12:28",
+      "Digar": "5:19",
+      "Shaam/Iftar": "7:22",
+      "Khoftan": "8:54"
+    },
+    "09-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:01",
+      "Sunrise": "5:35",
+      "Pishan": "12:28",
+      "Digar": "5:20",
+      "Shaam/Iftar": "7:23",
+      "Khoftan": "8:55"
+    },
+    "10-05": {
+      "Subah/Ikhtitam-i-Sahr": "4:00",
+      "Sunrise": "5:34",
+      "Pishan": "12:27",
+      "Digar": "5:20",
+      "Shaam/Iftar": "7:24",
+      "Khoftan": "8:56"
+    },
+    "11-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:59",
+      "Sunrise": "5:33",
+      "Pishan": "12:27",
+      "Digar": "5:20",
+      "Shaam/Iftar": "7:25",
+      "Khoftan": "8:57"
+    },
+    "12-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:57",
+      "Sunrise": "5:33",
+      "Pishan": "12:27",
+      "Digar": "5:21",
+      "Shaam/Iftar": "7:26",
+      "Khoftan": "8:58"
+    },
+    "13-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:56",
+      "Sunrise": "5:32",
+      "Pishan": "12:27",
+      "Digar": "5:21",
+      "Shaam/Iftar": "7:26",
+      "Khoftan": "8:59"
+    },
+    "14-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:55",
+      "Sunrise": "5:32",
+      "Pishan": "12:27",
+      "Digar": "5:21",
+      "Shaam/Iftar": "7:27",
+      "Khoftan": "9:01"
+    },
+    "15-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:54",
+      "Sunrise": "5:30",
+      "Pishan": "12:27",
+      "Digar": "5:21",
+      "Shaam/Iftar": "7:28",
+      "Khoftan": "9:02"
+    },
+    "16-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:53",
+      "Sunrise": "5:29",
+      "Pishan": "12:27",
+      "Digar": "5:22",
+      "Shaam/Iftar": "7:29",
+      "Khoftan": "9:03"
+    },
+    "17-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:52",
+      "Sunrise": "5:29",
+      "Pishan": "12:27",
+      "Digar": "5:22",
+      "Shaam/Iftar": "7:30",
+      "Khoftan": "9:04"
+    },
+    "18-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:51",
+      "Sunrise": "5:28",
+      "Pishan": "12:27",
+      "Digar": "5:23",
+      "Shaam/Iftar": "7:30",
+      "Khoftan": "9:05"
+    },
+    "19-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:50",
+      "Sunrise": "5:27",
+      "Pishan": "12:28",
+      "Digar": "5:23",
+      "Shaam/Iftar": "7:31",
+      "Khoftan": "9:06"
+    },
+    "20-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:49",
+      "Sunrise": "5:26",
+      "Pishan": "12:28",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:32",
+      "Khoftan": "9:07"
+    },
+    "21-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:48",
+      "Sunrise": "5:25",
+      "Pishan": "12:28",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:32",
+      "Khoftan": "9:08"
+    },
+    "22-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:47",
+      "Sunrise": "5:25",
+      "Pishan": "12:28",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:33",
+      "Khoftan": "9:09"
+    },
+    "23-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:46",
+      "Sunrise": "5:24",
+      "Pishan": "12:28",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:34",
+      "Khoftan": "9:10"
+    },
+    "24-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:45",
+      "Sunrise": "5:24",
+      "Pishan": "12:28",
+      "Digar": "5:25",
+      "Shaam/Iftar": "7:35",
+      "Khoftan": "9:11"
+    },
+    "25-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:44",
+      "Sunrise": "5:24",
+      "Pishan": "12:28",
+      "Digar": "5:25",
+      "Shaam/Iftar": "7:35",
+      "Khoftan": "9:12"
+    },
+    "26-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:43",
+      "Sunrise": "5:24",
+      "Pishan": "12:28",
+      "Digar": "5:26",
+      "Shaam/Iftar": "7:36",
+      "Khoftan": "9:13"
+    },
+    "27-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:42",
+      "Sunrise": "5:23",
+      "Pishan": "12:28",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:37",
+      "Khoftan": "9:14"
+    },
+    "28-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:41",
+      "Sunrise": "5:23",
+      "Pishan": "12:28",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:37",
+      "Khoftan": "9:15"
+    },
+    "29-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:41",
+      "Sunrise": "5:23",
+      "Pishan": "12:28",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:38",
+      "Khoftan": "9:16"
+    },
+    "30-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:40",
+      "Sunrise": "5:22",
+      "Pishan": "12:28",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:39",
+      "Khoftan": "9:17"
+    },
+    "31-05": {
+      "Subah/Ikhtitam-i-Sahr": "3:39",
+      "Sunrise": "5:22",
+      "Pishan": "12:28",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:39",
+      "Khoftan": "9:18"
+    },
+    "01-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:39",
+      "Sunrise": "5:21",
+      "Pishan": "12:29",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:40",
+      "Khoftan": "9:19"
+    },
+    "02-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:39",
+      "Sunrise": "5:21",
+      "Pishan": "12:29",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:40",
+      "Khoftan": "9:20"
+    },
+    "03-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:38",
+      "Sunrise": "5:21",
+      "Pishan": "12:29",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:40",
+      "Khoftan": "9:20"
+    },
+    "04-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:29",
+      "Digar": "5:29",
+      "Shaam/Iftar": "7:41",
+      "Khoftan": "9:21"
+    },
+    "05-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:29",
+      "Digar": "5:29",
+      "Shaam/Iftar": "7:41",
+      "Khoftan": "9:21"
+    },
+    "06-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:30",
+      "Digar": "5:29",
+      "Shaam/Iftar": "7:42",
+      "Khoftan": "9:22"
+    },
+    "07-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:30",
+      "Digar": "5:29",
+      "Shaam/Iftar": "7:42",
+      "Khoftan": "9:23"
+    },
+    "08-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:30",
+      "Digar": "5:30",
+      "Shaam/Iftar": "7:43",
+      "Khoftan": "9:24"
+    },
+    "09-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:20",
+      "Pishan": "12:30",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:44",
+      "Khoftan": "9:25"
+    },
+    "10-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:19",
+      "Pishan": "12:30",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:44",
+      "Khoftan": "9:25"
+    },
+    "11-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:19",
+      "Pishan": "12:30",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:44",
+      "Khoftan": "9:25"
+    },
+    "12-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:19",
+      "Pishan": "12:31",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:45",
+      "Khoftan": "9:26"
+    },
+    "13-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:19",
+      "Pishan": "12:31",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:45",
+      "Khoftan": "9:27"
+    },
+    "14-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:31",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:46",
+      "Khoftan": "9:28"
+    },
+    "15-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:31",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:46",
+      "Khoftan": "9:28"
+    },
+    "16-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:32",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:29"
+    },
+    "17-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:32",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:30"
+    },
+    "18-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:32",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:30"
+    },
+    "19-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:19",
+      "Pishan": "12:32",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:30"
+    },
+    "20-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:35",
+      "Sunrise": "5:20",
+      "Pishan": "12:33",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:48",
+      "Khoftan": "9:30"
+    },
+    "21-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:20",
+      "Pishan": "12:33",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:48",
+      "Khoftan": "9:31"
+    },
+    "22-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:20",
+      "Pishan": "12:33",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:31"
+    },
+    "23-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:20",
+      "Pishan": "12:33",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:31"
+    },
+    "24-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:36",
+      "Sunrise": "5:21",
+      "Pishan": "12:33",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:31"
+    },
+    "25-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:21",
+      "Pishan": "12:33",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "26-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:21",
+      "Pishan": "12:34",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "27-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:37",
+      "Sunrise": "5:21",
+      "Pishan": "12:34",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "28-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:38",
+      "Sunrise": "5:22",
+      "Pishan": "12:34",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "29-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:38",
+      "Sunrise": "5:22",
+      "Pishan": "12:34",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "30-06": {
+      "Subah/Ikhtitam-i-Sahr": "3:39",
+      "Sunrise": "5:23",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "01-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:39",
+      "Sunrise": "5:23",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "02-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:40",
+      "Sunrise": "5:23",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "03-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:40",
+      "Sunrise": "5:23",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "04-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:41",
+      "Sunrise": "5:24",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "05-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:42",
+      "Sunrise": "5:24",
+      "Pishan": "12:35",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:50",
+      "Khoftan": "9:31"
+    },
+    "06-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:43",
+      "Sunrise": "5:25",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:30"
+    },
+    "07-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:44",
+      "Sunrise": "5:25",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:30"
+    },
+    "08-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:45",
+      "Sunrise": "5:26",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:30"
+    },
+    "09-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:46",
+      "Sunrise": "5:27",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:49",
+      "Khoftan": "9:30"
+    },
+    "10-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:46",
+      "Sunrise": "5:28",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:48",
+      "Khoftan": "9:29"
+    },
+    "11-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:46",
+      "Sunrise": "5:29",
+      "Pishan": "12:36",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:48",
+      "Khoftan": "9:29"
+    },
+    "12-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:47",
+      "Sunrise": "5:29",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:28"
+    },
+    "13-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:48",
+      "Sunrise": "5:30",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:27"
+    },
+    "14-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:49",
+      "Sunrise": "5:30",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:47",
+      "Khoftan": "9:26"
+    },
+    "15-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:50",
+      "Sunrise": "5:30",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:46",
+      "Khoftan": "9:25"
+    },
+    "16-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:51",
+      "Sunrise": "5:31",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:46",
+      "Khoftan": "9:24"
+    },
+    "17-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:52",
+      "Sunrise": "5:31",
+      "Pishan": "12:37",
+      "Digar": "5:35",
+      "Shaam/Iftar": "7:45",
+      "Khoftan": "9:23"
+    },
+    "18-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:53",
+      "Sunrise": "5:32",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:45",
+      "Khoftan": "9:22"
+    },
+    "19-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:54",
+      "Sunrise": "5:33",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:44",
+      "Khoftan": "9:21"
+    },
+    "20-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:55",
+      "Sunrise": "5:34",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:44",
+      "Khoftan": "9:21"
+    },
+    "21-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:56",
+      "Sunrise": "5:34",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:43",
+      "Khoftan": "9:20"
+    },
+    "22-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:57",
+      "Sunrise": "5:35",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:43",
+      "Khoftan": "9:19"
+    },
+    "23-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:58",
+      "Sunrise": "5:36",
+      "Pishan": "12:37",
+      "Digar": "5:34",
+      "Shaam/Iftar": "7:42",
+      "Khoftan": "9:18"
+    },
+    "24-07": {
+      "Subah/Ikhtitam-i-Sahr": "3:59",
+      "Sunrise": "5:36",
+      "Pishan": "12:38",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:42",
+      "Khoftan": "9:17"
+    },
+    "25-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:00",
+      "Sunrise": "5:37",
+      "Pishan": "12:38",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:41",
+      "Khoftan": "9:16"
+    },
+    "26-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:01",
+      "Sunrise": "5:38",
+      "Pishan": "12:38",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:40",
+      "Khoftan": "9:15"
+    },
+    "27-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:02",
+      "Sunrise": "5:39",
+      "Pishan": "12:38",
+      "Digar": "5:33",
+      "Shaam/Iftar": "7:40",
+      "Khoftan": "9:14"
+    },
+    "28-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:03",
+      "Sunrise": "5:39",
+      "Pishan": "12:38",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:39",
+      "Khoftan": "9:13"
+    },
+    "29-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:04",
+      "Sunrise": "5:39",
+      "Pishan": "12:38",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:38",
+      "Khoftan": "9:12"
+    },
+    "30-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:05",
+      "Sunrise": "5:40",
+      "Pishan": "12:37",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:37",
+      "Khoftan": "9:11"
+    },
+    "31-07": {
+      "Subah/Ikhtitam-i-Sahr": "4:06",
+      "Sunrise": "5:41",
+      "Pishan": "12:37",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:37",
+      "Khoftan": "9:11"
+    },
+    "01-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:07",
+      "Sunrise": "5:42",
+      "Pishan": "12:37",
+      "Digar": "5:32",
+      "Shaam/Iftar": "7:36",
+      "Khoftan": "9:09"
+    },
+    "02-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:08",
+      "Sunrise": "5:42",
+      "Pishan": "12:37",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:35",
+      "Khoftan": "9:08"
+    },
+    "03-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:09",
+      "Sunrise": "5:42",
+      "Pishan": "12:37",
+      "Digar": "5:31",
+      "Shaam/Iftar": "7:34",
+      "Khoftan": "9:07"
+    },
+    "04-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:10",
+      "Sunrise": "5:43",
+      "Pishan": "12:37",
+      "Digar": "5:30",
+      "Shaam/Iftar": "7:33",
+      "Khoftan": "9:06"
+    },
+    "05-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:12",
+      "Sunrise": "5:44",
+      "Pishan": "12:37",
+      "Digar": "5:30",
+      "Shaam/Iftar": "7:32",
+      "Khoftan": "9:05"
+    },
+    "06-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:13",
+      "Sunrise": "5:45",
+      "Pishan": "12:37",
+      "Digar": "5:29",
+      "Shaam/Iftar": "7:31",
+      "Khoftan": "9:04"
+    },
+    "07-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:14",
+      "Sunrise": "5:46",
+      "Pishan": "12:37",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:30",
+      "Khoftan": "9:03"
+    },
+    "08-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:15",
+      "Sunrise": "5:46",
+      "Pishan": "12:37",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:29",
+      "Khoftan": "9:01"
+    },
+    "09-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:16",
+      "Sunrise": "5:47",
+      "Pishan": "12:37",
+      "Digar": "5:28",
+      "Shaam/Iftar": "7:28",
+      "Khoftan": "9:00"
+    },
+    "10-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:17",
+      "Sunrise": "5:48",
+      "Pishan": "12:36",
+      "Digar": "5:27",
+      "Shaam/Iftar": "7:27",
+      "Khoftan": "8:58"
+    },
+    "11-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:18",
+      "Sunrise": "5:49",
+      "Pishan": "12:36",
+      "Digar": "5:26",
+      "Shaam/Iftar": "7:26",
+      "Khoftan": "8:57"
+    },
+    "12-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:19",
+      "Sunrise": "5:50",
+      "Pishan": "12:36",
+      "Digar": "5:25",
+      "Shaam/Iftar": "7:25",
+      "Khoftan": "8:55"
+    },
+    "13-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:20",
+      "Sunrise": "5:51",
+      "Pishan": "12:36",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:24",
+      "Khoftan": "8:53"
+    },
+    "14-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:21",
+      "Sunrise": "5:51",
+      "Pishan": "12:36",
+      "Digar": "5:24",
+      "Shaam/Iftar": "7:23",
+      "Khoftan": "8:53"
+    },
+    "15-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:22",
+      "Sunrise": "5:52",
+      "Pishan": "12:36",
+      "Digar": "5:23",
+      "Shaam/Iftar": "7:22",
+      "Khoftan": "8:51"
+    },
+    "16-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:23",
+      "Sunrise": "5:52",
+      "Pishan": "12:36",
+      "Digar": "5:22",
+      "Shaam/Iftar": "7:21",
+      "Khoftan": "8:49"
+    },
+    "17-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:24",
+      "Sunrise": "5:53",
+      "Pishan": "12:35",
+      "Digar": "5:22",
+      "Shaam/Iftar": "7:20",
+      "Khoftan": "8:48"
+    },
+    "18-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:25",
+      "Sunrise": "5:53",
+      "Pishan": "12:35",
+      "Digar": "5:21",
+      "Shaam/Iftar": "7:19",
+      "Khoftan": "8:47"
+    },
+    "19-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:26",
+      "Sunrise": "5:54",
+      "Pishan": "12:35",
+      "Digar": "5:20",
+      "Shaam/Iftar": "7:18",
+      "Khoftan": "8:46"
+    },
+    "20-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:27",
+      "Sunrise": "5:55",
+      "Pishan": "12:35",
+      "Digar": "5:20",
+      "Shaam/Iftar": "7:17",
+      "Khoftan": "8:45"
+    },
+    "21-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:28",
+      "Sunrise": "5:56",
+      "Pishan": "12:35",
+      "Digar": "5:19",
+      "Shaam/Iftar": "7:16",
+      "Khoftan": "8:42"
+    },
+    "22-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:29",
+      "Sunrise": "5:56",
+      "Pishan": "12:35",
+      "Digar": "5:18",
+      "Shaam/Iftar": "7:14",
+      "Khoftan": "8:40"
+    },
+    "23-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:30",
+      "Sunrise": "5:57",
+      "Pishan": "12:34",
+      "Digar": "5:17",
+      "Shaam/Iftar": "7:12",
+      "Khoftan": "8:39"
+    },
+    "24-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:31",
+      "Sunrise": "5:58",
+      "Pishan": "12:34",
+      "Digar": "5:16",
+      "Shaam/Iftar": "7:11",
+      "Khoftan": "8:38"
+    },
+    "25-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:32",
+      "Sunrise": "5:58",
+      "Pishan": "12:34",
+      "Digar": "5:14",
+      "Shaam/Iftar": "7:10",
+      "Khoftan": "8:36"
+    },
+    "26-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:34",
+      "Sunrise": "5:59",
+      "Pishan": "12:34",
+      "Digar": "5:14",
+      "Shaam/Iftar": "7:09",
+      "Khoftan": "8:34"
+    },
+    "27-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:35",
+      "Sunrise": "5:59",
+      "Pishan": "12:34",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:08",
+      "Khoftan": "8:32"
+    },
+    "28-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:35",
+      "Sunrise": "6:00",
+      "Pishan": "12:34",
+      "Digar": "5:13",
+      "Shaam/Iftar": "7:06",
+      "Khoftan": "8:31"
+    },
+    "29-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:35",
+      "Sunrise": "6:01",
+      "Pishan": "12:34",
+      "Digar": "5:12",
+      "Shaam/Iftar": "7:05",
+      "Khoftan": "8:30"
+    },
+    "30-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:36",
+      "Sunrise": "6:02",
+      "Pishan": "12:34",
+      "Digar": "5:11",
+      "Shaam/Iftar": "7:04",
+      "Khoftan": "8:28"
+    },
+    "31-08": {
+      "Subah/Ikhtitam-i-Sahr": "4:36",
+      "Sunrise": "6:03",
+      "Pishan": "12:34",
+      "Digar": "5:11",
+      "Shaam/Iftar": "7:04",
+      "Khoftan": "8:28"
+    },
+    "01-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:39",
+      "Sunrise": "6:04",
+      "Pishan": "12:31",
+      "Digar": "5:09",
+      "Shaam/Iftar": "7:01",
+      "Khoftan": "8:24"
+    },
+    "02-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:39",
+      "Sunrise": "6:04",
+      "Pishan": "12:31",
+      "Digar": "5:08",
+      "Shaam/Iftar": "6:59",
+      "Khoftan": "8:23"
+    },
+    "03-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:40",
+      "Sunrise": "6:05",
+      "Pishan": "12:31",
+      "Digar": "5:07",
+      "Shaam/Iftar": "6:58",
+      "Khoftan": "8:22"
+    },
+    "04-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:41",
+      "Sunrise": "6:06",
+      "Pishan": "12:30",
+      "Digar": "5:06",
+      "Shaam/Iftar": "6:57",
+      "Khoftan": "8:20"
+    },
+    "05-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:42",
+      "Sunrise": "6:07",
+      "Pishan": "12:30",
+      "Digar": "5:05",
+      "Shaam/Iftar": "6:55",
+      "Khoftan": "8:19"
+    },
+    "06-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:43",
+      "Sunrise": "6:08",
+      "Pishan": "12:29",
+      "Digar": "5:04",
+      "Shaam/Iftar": "6:54",
+      "Khoftan": "8:17"
+    },
+    "07-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:44",
+      "Sunrise": "6:08",
+      "Pishan": "12:29",
+      "Digar": "5:03",
+      "Shaam/Iftar": "6:52",
+      "Khoftan": "8:16"
+    },
+    "08-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:45",
+      "Sunrise": "6:09",
+      "Pishan": "12:28",
+      "Digar": "5:02",
+      "Shaam/Iftar": "6:51",
+      "Khoftan": "8:14"
+    },
+    "09-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:45",
+      "Sunrise": "6:09",
+      "Pishan": "12:28",
+      "Digar": "5:02",
+      "Shaam/Iftar": "6:51",
+      "Khoftan": "8:14"
+    },
+    "10-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:46",
+      "Sunrise": "6:10",
+      "Pishan": "12:28",
+      "Digar": "5:00",
+      "Shaam/Iftar": "6:48",
+      "Khoftan": "8:11"
+    },
+    "11-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:47",
+      "Sunrise": "6:10",
+      "Pishan": "12:28",
+      "Digar": "4:58",
+      "Shaam/Iftar": "6:47",
+      "Khoftan": "8:10"
+    },
+    "12-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:47",
+      "Sunrise": "6:11",
+      "Pishan": "12:27",
+      "Digar": "4:57",
+      "Shaam/Iftar": "6:46",
+      "Khoftan": "8:08"
+    },
+    "13-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:48",
+      "Sunrise": "6:11",
+      "Pishan": "12:27",
+      "Digar": "4:56",
+      "Shaam/Iftar": "6:45",
+      "Khoftan": "8:07"
+    },
+    "14-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:49",
+      "Sunrise": "6:12",
+      "Pishan": "12:26",
+      "Digar": "4:55",
+      "Shaam/Iftar": "6:44",
+      "Khoftan": "8:06"
+    },
+    "15-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:50",
+      "Sunrise": "6:12",
+      "Pishan": "12:26",
+      "Digar": "4:54",
+      "Shaam/Iftar": "6:43",
+      "Khoftan": "8:05"
+    },
+    "16-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:51",
+      "Sunrise": "6:14",
+      "Pishan": "12:25",
+      "Digar": "4:53",
+      "Shaam/Iftar": "6:41",
+      "Khoftan": "8:03"
+    },
+    "17-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:52",
+      "Sunrise": "6:14",
+      "Pishan": "12:25",
+      "Digar": "4:52",
+      "Shaam/Iftar": "6:39",
+      "Khoftan": "8:01"
+    },
+    "18-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:53",
+      "Sunrise": "6:15",
+      "Pishan": "12:25",
+      "Digar": "4:51",
+      "Shaam/Iftar": "6:38",
+      "Khoftan": "8:00"
+    },
+    "19-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:53",
+      "Sunrise": "6:16",
+      "Pishan": "12:25",
+      "Digar": "4:49",
+      "Shaam/Iftar": "6:37",
+      "Khoftan": "7:58"
+    },
+    "20-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:54",
+      "Sunrise": "6:17",
+      "Pishan": "12:24",
+      "Digar": "4:48",
+      "Shaam/Iftar": "6:35",
+      "Khoftan": "7:56"
+    },
+    "21-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:55",
+      "Sunrise": "6:17",
+      "Pishan": "12:24",
+      "Digar": "4:47",
+      "Shaam/Iftar": "6:33",
+      "Khoftan": "7:54"
+    },
+    "22-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:56",
+      "Sunrise": "6:18",
+      "Pishan": "12:23",
+      "Digar": "4:46",
+      "Shaam/Iftar": "6:32",
+      "Khoftan": "7:53"
+    },
+    "23-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:57",
+      "Sunrise": "6:19",
+      "Pishan": "12:23",
+      "Digar": "4:45",
+      "Shaam/Iftar": "6:30",
+      "Khoftan": "7:51"
+    },
+    "24-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:58",
+      "Sunrise": "6:20",
+      "Pishan": "12:23",
+      "Digar": "4:43",
+      "Shaam/Iftar": "6:29",
+      "Khoftan": "7:50"
+    },
+    "25-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:59",
+      "Sunrise": "6:20",
+      "Pishan": "12:23",
+      "Digar": "4:42",
+      "Shaam/Iftar": "6:28",
+      "Khoftan": "7:49"
+    },
+    "26-09": {
+      "Subah/Ikhtitam-i-Sahr": "4:59",
+      "Sunrise": "6:21",
+      "Pishan": "12:22",
+      "Digar": "4:41",
+      "Shaam/Iftar": "6:26",
+      "Khoftan": "7:47"
+    },
+    "27-09": {
+      "Subah/Ikhtitam-i-Sahr": "5:00",
+      "Sunrise": "6:22",
+      "Pishan": "12:22",
+      "Digar": "4:40",
+      "Shaam/Iftar": "6:25",
+      "Khoftan": "7:46"
+    },
+    "28-09": {
+      "Subah/Ikhtitam-i-Sahr": "5:01",
+      "Sunrise": "6:23",
+      "Pishan": "12:21",
+      "Digar": "4:39",
+      "Shaam/Iftar": "6:24",
+      "Khoftan": "7:44"
+    },
+    "29-09": {
+      "Subah/Ikhtitam-i-Sahr": "5:01",
+      "Sunrise": "6:24",
+      "Pishan": "12:21",
+      "Digar": "4:38",
+      "Shaam/Iftar": "6:23",
+      "Khoftan": "7:43"
+    },
+    "30-09": {
+      "Subah/Ikhtitam-i-Sahr": "5:02",
+      "Sunrise": "6:24",
+      "Pishan": "12:21",
+      "Digar": "4:36",
+      "Shaam/Iftar": "6:21",
+      "Khoftan": "7:41"
+    },
+    "01-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:03",
+      "Sunrise": "6:25",
+      "Pishan": "12:21",
+      "Digar": "4:35",
+      "Shaam/Iftar": "6:19",
+      "Khoftan": "7:40"
+    },
+    "02-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:04",
+      "Sunrise": "6:25",
+      "Pishan": "12:21",
+      "Digar": "4:34",
+      "Shaam/Iftar": "6:18",
+      "Khoftan": "7:38"
+    },
+    "03-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:05",
+      "Sunrise": "6:26",
+      "Pishan": "12:21",
+      "Digar": "4:33",
+      "Shaam/Iftar": "6:16",
+      "Khoftan": "7:37"
+    },
+    "04-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:06",
+      "Sunrise": "6:27",
+      "Pishan": "12:20",
+      "Digar": "4:32",
+      "Shaam/Iftar": "6:15",
+      "Khoftan": "7:36"
+    },
+    "05-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:06",
+      "Sunrise": "6:28",
+      "Pishan": "12:20",
+      "Digar": "4:31",
+      "Shaam/Iftar": "6:14",
+      "Khoftan": "7:35"
+    },
+    "06-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:07",
+      "Sunrise": "6:29",
+      "Pishan": "12:19",
+      "Digar": "4:30",
+      "Shaam/Iftar": "6:14",
+      "Khoftan": "7:33"
+    },
+    "07-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:08",
+      "Sunrise": "6:29",
+      "Pishan": "12:19",
+      "Digar": "4:29",
+      "Shaam/Iftar": "6:12",
+      "Khoftan": "7:32"
+    },
+    "08-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:09",
+      "Sunrise": "6:30",
+      "Pishan": "12:19",
+      "Digar": "4:27",
+      "Shaam/Iftar": "6:10",
+      "Khoftan": "7:31"
+    },
+    "09-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:10",
+      "Sunrise": "6:30",
+      "Pishan": "12:19",
+      "Digar": "4:26",
+      "Shaam/Iftar": "6:09",
+      "Khoftan": "7:30"
+    },
+    "10-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:10",
+      "Sunrise": "6:31",
+      "Pishan": "12:18",
+      "Digar": "4:25",
+      "Shaam/Iftar": "6:08",
+      "Khoftan": "7:29"
+    },
+    "11-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:11",
+      "Sunrise": "6:32",
+      "Pishan": "12:18",
+      "Digar": "4:24",
+      "Shaam/Iftar": "6:06",
+      "Khoftan": "7:28"
+    },
+    "12-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:12",
+      "Sunrise": "6:33",
+      "Pishan": "12:18",
+      "Digar": "4:23",
+      "Shaam/Iftar": "6:05",
+      "Khoftan": "7:26"
+    },
+    "13-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:13",
+      "Sunrise": "6:33",
+      "Pishan": "12:18",
+      "Digar": "4:22",
+      "Shaam/Iftar": "6:04",
+      "Khoftan": "7:25"
+    },
+    "14-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:13",
+      "Sunrise": "6:34",
+      "Pishan": "12:17",
+      "Digar": "4:21",
+      "Shaam/Iftar": "6:03",
+      "Khoftan": "7:24"
+    },
+    "15-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:14",
+      "Sunrise": "6:35",
+      "Pishan": "12:17",
+      "Digar": "4:19",
+      "Shaam/Iftar": "6:01",
+      "Khoftan": "7:22"
+    },
+    "16-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:14",
+      "Sunrise": "6:36",
+      "Pishan": "12:17",
+      "Digar": "4:18",
+      "Shaam/Iftar": "6:00",
+      "Khoftan": "7:20"
+    },
+    "17-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:15",
+      "Sunrise": "6:37",
+      "Pishan": "12:17",
+      "Digar": "4:17",
+      "Shaam/Iftar": "5:59",
+      "Khoftan": "7:19"
+    },
+    "18-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:16",
+      "Sunrise": "6:38",
+      "Pishan": "12:16",
+      "Digar": "4:16",
+      "Shaam/Iftar": "5:58",
+      "Khoftan": "7:18"
+    },
+    "19-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:16",
+      "Sunrise": "6:38",
+      "Pishan": "12:16",
+      "Digar": "4:15",
+      "Shaam/Iftar": "5:57",
+      "Khoftan": "7:17"
+    },
+    "20-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:17",
+      "Sunrise": "6:39",
+      "Pishan": "12:16",
+      "Digar": "4:14",
+      "Shaam/Iftar": "5:55",
+      "Khoftan": "7:16"
+    },
+    "21-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:18",
+      "Sunrise": "6:40",
+      "Pishan": "12:16",
+      "Digar": "4:13",
+      "Shaam/Iftar": "5:54",
+      "Khoftan": "7:15"
+    },
+    "22-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:19",
+      "Sunrise": "6:41",
+      "Pishan": "12:16",
+      "Digar": "4:12",
+      "Shaam/Iftar": "5:53",
+      "Khoftan": "7:14"
+    },
+    "23-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:20",
+      "Sunrise": "6:42",
+      "Pishan": "12:16",
+      "Digar": "4:11",
+      "Shaam/Iftar": "5:51",
+      "Khoftan": "7:13"
+    },
+    "24-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:21",
+      "Sunrise": "6:43",
+      "Pishan": "12:15",
+      "Digar": "4:09",
+      "Shaam/Iftar": "5:50",
+      "Khoftan": "7:12"
+    },
+    "25-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:21",
+      "Sunrise": "6:44",
+      "Pishan": "12:15",
+      "Digar": "4:08",
+      "Shaam/Iftar": "5:49",
+      "Khoftan": "7:11"
+    },
+    "26-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:22",
+      "Sunrise": "6:45",
+      "Pishan": "12:15",
+      "Digar": "4:07",
+      "Shaam/Iftar": "5:48",
+      "Khoftan": "7:10"
+    },
+    "27-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:23",
+      "Sunrise": "6:46",
+      "Pishan": "12:15",
+      "Digar": "4:06",
+      "Shaam/Iftar": "5:47",
+      "Khoftan": "7:09"
+    },
+    "28-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:24",
+      "Sunrise": "6:47",
+      "Pishan": "12:15",
+      "Digar": "4:05",
+      "Shaam/Iftar": "5:46",
+      "Khoftan": "7:08"
+    },
+    "29-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:25",
+      "Sunrise": "6:47",
+      "Pishan": "12:15",
+      "Digar": "4:04",
+      "Shaam/Iftar": "5:45",
+      "Khoftan": "7:07"
+    },
+    "30-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:25",
+      "Sunrise": "6:48",
+      "Pishan": "12:15",
+      "Digar": "4:03",
+      "Shaam/Iftar": "5:44",
+      "Khoftan": "7:06"
+    },
+    "31-10": {
+      "Subah/Ikhtitam-i-Sahr": "5:26",
+      "Sunrise": "6:49",
+      "Pishan": "12:15",
+      "Digar": "4:02",
+      "Shaam/Iftar": "5:43",
+      "Khoftan": "7:05"
+    },
+    "01-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:27",
+      "Sunrise": "6:50",
+      "Pishan": "12:15",
+      "Digar": "4:02",
+      "Shaam/Iftar": "5:42",
+      "Khoftan": "7:04"
+    },
+    "02-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:28",
+      "Sunrise": "6:51",
+      "Pishan": "12:15",
+      "Digar": "4:01",
+      "Shaam/Iftar": "5:41",
+      "Khoftan": "7:04"
+    },
+    "03-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:28",
+      "Sunrise": "6:52",
+      "Pishan": "12:15",
+      "Digar": "4:00",
+      "Shaam/Iftar": "5:40",
+      "Khoftan": "7:03"
+    },
+    "04-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:29",
+      "Sunrise": "6:53",
+      "Pishan": "12:15",
+      "Digar": "3:59",
+      "Shaam/Iftar": "5:40",
+      "Khoftan": "7:03"
+    },
+    "05-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:30",
+      "Sunrise": "6:54",
+      "Pishan": "12:15",
+      "Digar": "3:59",
+      "Shaam/Iftar": "5:39",
+      "Khoftan": "7:02"
+    },
+    "06-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:31",
+      "Sunrise": "6:54",
+      "Pishan": "12:15",
+      "Digar": "3:58",
+      "Shaam/Iftar": "5:38",
+      "Khoftan": "7:01"
+    },
+    "07-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:32",
+      "Sunrise": "6:55",
+      "Pishan": "12:15",
+      "Digar": "3:57",
+      "Shaam/Iftar": "5:37",
+      "Khoftan": "7:00"
+    },
+    "08-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:32",
+      "Sunrise": "6:56",
+      "Pishan": "12:15",
+      "Digar": "3:56",
+      "Shaam/Iftar": "5:36",
+      "Khoftan": "7:00"
+    },
+    "09-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:33",
+      "Sunrise": "6:57",
+      "Pishan": "12:15",
+      "Digar": "3:55",
+      "Shaam/Iftar": "5:36",
+      "Khoftan": "6:59"
+    },
+    "10-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:33",
+      "Sunrise": "6:59",
+      "Pishan": "12:15",
+      "Digar": "3:54",
+      "Shaam/Iftar": "5:35",
+      "Khoftan": "6:58"
+    },
+    "11-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:34",
+      "Sunrise": "6:59",
+      "Pishan": "12:15",
+      "Digar": "3:53",
+      "Shaam/Iftar": "5:34",
+      "Khoftan": "6:58"
+    },
+    "12-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:35",
+      "Sunrise": "7:00",
+      "Pishan": "12:15",
+      "Digar": "3:53",
+      "Shaam/Iftar": "5:33",
+      "Khoftan": "6:57"
+    },
+    "13-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:36",
+      "Sunrise": "7:01",
+      "Pishan": "12:15",
+      "Digar": "3:51",
+      "Shaam/Iftar": "5:33",
+      "Khoftan": "6:57"
+    },
+    "14-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:37",
+      "Sunrise": "7:02",
+      "Pishan": "12:15",
+      "Digar": "3:51",
+      "Shaam/Iftar": "5:32",
+      "Khoftan": "6:56"
+    },
+    "15-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:38",
+      "Sunrise": "7:03",
+      "Pishan": "12:16",
+      "Digar": "3:51",
+      "Shaam/Iftar": "5:32",
+      "Khoftan": "6:56"
+    },
+    "16-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:39",
+      "Sunrise": "7:04",
+      "Pishan": "12:16",
+      "Digar": "3:51",
+      "Shaam/Iftar": "5:31",
+      "Khoftan": "6:55"
+    },
+    "17-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:40",
+      "Sunrise": "7:05",
+      "Pishan": "12:16",
+      "Digar": "3:50",
+      "Shaam/Iftar": "5:30",
+      "Khoftan": "6:55"
+    },
+    "18-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:41",
+      "Sunrise": "7:06",
+      "Pishan": "12:16",
+      "Digar": "3:50",
+      "Shaam/Iftar": "5:29",
+      "Khoftan": "6:54"
+    },
+    "19-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:42",
+      "Sunrise": "7:07",
+      "Pishan": "12:16",
+      "Digar": "3:49",
+      "Shaam/Iftar": "5:28",
+      "Khoftan": "6:53"
+    },
+    "20-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:42",
+      "Sunrise": "7:08",
+      "Pishan": "12:17",
+      "Digar": "3:49",
+      "Shaam/Iftar": "5:28",
+      "Khoftan": "6:53"
+    },
+    "21-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:43",
+      "Sunrise": "7:09",
+      "Pishan": "12:17",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:52"
+    },
+    "22-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:44",
+      "Sunrise": "7:10",
+      "Pishan": "12:17",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:52"
+    },
+    "23-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:45",
+      "Sunrise": "7:10",
+      "Pishan": "12:17",
+      "Digar": "3:47",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:52"
+    },
+    "24-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:46",
+      "Sunrise": "7:11",
+      "Pishan": "12:18",
+      "Digar": "3:47",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:51"
+    },
+    "25-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:46",
+      "Sunrise": "7:12",
+      "Pishan": "12:18",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:51"
+    },
+    "26-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:47",
+      "Sunrise": "7:13",
+      "Pishan": "12:18",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:51"
+    },
+    "27-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:48",
+      "Sunrise": "7:14",
+      "Pishan": "12:19",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:51"
+    },
+    "28-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:49",
+      "Sunrise": "7:14",
+      "Pishan": "12:19",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:50"
+    },
+    "29-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:50",
+      "Sunrise": "7:15",
+      "Pishan": "12:19",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:50"
+    },
+    "30-11": {
+      "Subah/Ikhtitam-i-Sahr": "5:50",
+      "Sunrise": "7:16",
+      "Pishan": "12:20",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:50"
+    },
+    "01-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:51",
+      "Sunrise": "7:17",
+      "Pishan": "12:20",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:50"
+    },
+    "02-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:52",
+      "Sunrise": "7:18",
+      "Pishan": "12:20",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "03-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:52",
+      "Sunrise": "7:19",
+      "Pishan": "12:20",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "04-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:53",
+      "Sunrise": "7:20",
+      "Pishan": "12:21",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "05-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:54",
+      "Sunrise": "7:21",
+      "Pishan": "12:21",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "06-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:55",
+      "Sunrise": "7:22",
+      "Pishan": "12:22",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "07-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:56",
+      "Sunrise": "7:23",
+      "Pishan": "12:22",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "08-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:57",
+      "Sunrise": "7:24",
+      "Pishan": "12:23",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "09-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:57",
+      "Sunrise": "7:25",
+      "Pishan": "12:23",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:25",
+      "Khoftan": "6:50"
+    },
+    "10-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:58",
+      "Sunrise": "7:26",
+      "Pishan": "12:24",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:51"
+    },
+    "11-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:58",
+      "Sunrise": "7:27",
+      "Pishan": "12:24",
+      "Digar": "3:45",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:51"
+    },
+    "12-12": {
+      "Subah/Ikhtitam-i-Sahr": "5:59",
+      "Sunrise": "7:28",
+      "Pishan": "12:25",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:52"
+    },
+    "13-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:00",
+      "Sunrise": "7:28",
+      "Pishan": "12:25",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:26",
+      "Khoftan": "6:52"
+    },
+    "14-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:00",
+      "Sunrise": "7:29",
+      "Pishan": "12:26",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:52"
+    },
+    "15-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:00",
+      "Sunrise": "7:30",
+      "Pishan": "12:26",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:52"
+    },
+    "16-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:01",
+      "Sunrise": "7:30",
+      "Pishan": "12:27",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:53"
+    },
+    "17-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:02",
+      "Sunrise": "7:31",
+      "Pishan": "12:27",
+      "Digar": "3:46",
+      "Shaam/Iftar": "5:27",
+      "Khoftan": "6:53"
+    },
+    "18-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:02",
+      "Sunrise": "7:31",
+      "Pishan": "12:28",
+      "Digar": "3:47",
+      "Shaam/Iftar": "5:28",
+      "Khoftan": "6:54"
+    },
+    "19-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:02",
+      "Sunrise": "7:32",
+      "Pishan": "12:28",
+      "Digar": "3:47",
+      "Shaam/Iftar": "5:28",
+      "Khoftan": "6:54"
+    },
+    "20-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:03",
+      "Sunrise": "7:32",
+      "Pishan": "12:29",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:29",
+      "Khoftan": "6:55"
+    },
+    "21-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:03",
+      "Sunrise": "7:33",
+      "Pishan": "12:29",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:29",
+      "Khoftan": "6:55"
+    },
+    "22-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:04",
+      "Sunrise": "7:33",
+      "Pishan": "12:30",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:30",
+      "Khoftan": "6:55"
+    },
+    "23-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:04",
+      "Sunrise": "7:34",
+      "Pishan": "12:30",
+      "Digar": "3:48",
+      "Shaam/Iftar": "5:30",
+      "Khoftan": "6:55"
+    },
+    "24-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:05",
+      "Sunrise": "7:34",
+      "Pishan": "12:31",
+      "Digar": "3:49",
+      "Shaam/Iftar": "5:31",
+      "Khoftan": "6:57"
+    },
+    "25-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:05",
+      "Sunrise": "7:35",
+      "Pishan": "12:31",
+      "Digar": "3:49",
+      "Shaam/Iftar": "5:31",
+      "Khoftan": "6:57"
+    },
+    "26-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:06",
+      "Sunrise": "7:35",
+      "Pishan": "12:32",
+      "Digar": "3:50",
+      "Shaam/Iftar": "5:32",
+      "Khoftan": "6:58"
+    },
+    "27-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:06",
+      "Sunrise": "7:36",
+      "Pishan": "12:32",
+      "Digar": "3:51",
+      "Shaam/Iftar": "5:32",
+      "Khoftan": "6:58"
+    },
+    "28-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:07",
+      "Sunrise": "7:36",
+      "Pishan": "12:33",
+      "Digar": "3:52",
+      "Shaam/Iftar": "5:33",
+      "Khoftan": "6:59"
+    },
+    "29-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:07",
+      "Sunrise": "7:37",
+      "Pishan": "12:34",
+      "Digar": "3:53",
+      "Shaam/Iftar": "5:33",
+      "Khoftan": "6:59"
+    },
+    "30-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:37",
+      "Pishan": "12:34",
+      "Digar": "3:53",
+      "Shaam/Iftar": "5:34",
+      "Khoftan": "7:00"
+    },
+    "31-12": {
+      "Subah/Ikhtitam-i-Sahr": "6:08",
+      "Sunrise": "7:37",
+      "Pishan": "12:34",
+      "Digar": "3:53",
+      "Shaam/Iftar": "5:35",
+      "Khoftan": "7:00"
+    }
+  }
+}
