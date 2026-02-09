@@ -102,6 +102,12 @@ function addMinutes(time, minutes) {
   return date.toTimeString().slice(0, 5);
 }
 
+function formatTime12(hhmm) {
+  const [h, m] = hhmm.split(":").map(Number);
+  const hour12 = (h % 12) || 12;
+  return `${hour12}:${String(m).padStart(2, '0')}`;
+}
+
 function renderTimes() {
   const key = todayKey();
   const baseTimes = timetable.days[key];
@@ -113,7 +119,8 @@ function renderTimes() {
 
   timesDiv.innerHTML = "";
   for (const prayer in baseTimes) {
-    const adjusted = addMinutes(baseTimes[prayer], offset);
+    const adjusted24 = addMinutes(baseTimes[prayer], offset);
+    const adjusted = formatTime12(adjusted24);
     const row = document.createElement("div");
     row.className = "time";
     row.dataset.prayer = prayer;
@@ -202,7 +209,8 @@ function findNextPrayer() {
   for (const prayer in baseTimes) {
     const at = parseTimeToDate(baseTimes[prayer], offset);
     if (at > now && (!next || at < next.at)) {
-      next = { name: prayer, at, timeStr: addMinutes(baseTimes[prayer], offset) };
+      const t24 = addMinutes(baseTimes[prayer], offset);
+      next = { name: prayer, at, timeStr: formatTime12(t24) };
     }
   }
   if (next) return next;
@@ -216,7 +224,8 @@ function findNextPrayer() {
   for (const prayer in tTimes) {
     const at = parseTimeToDate(tTimes[prayer], offset, tomorrow);
     if (!first || at < first.at) {
-      first = { name: prayer, at, timeStr: addMinutes(tTimes[prayer], offset) };
+      const t24 = addMinutes(tTimes[prayer], offset);
+      first = { name: prayer, at, timeStr: formatTime12(t24) };
     }
   }
   return first;
@@ -227,8 +236,8 @@ function updateNextPrayer() {
   if (!next) return;
   if (nextNameEl) nextNameEl.textContent = next.name;
   if (nextTimeEl) nextTimeEl.textContent = next.timeStr;
-  // No remaining-time countdown; only show next prayer name/time
-  if (nextCountdownEl) nextCountdownEl.textContent = "";
+  const ms = next.at - new Date();
+  if (nextCountdownEl) nextCountdownEl.textContent = formatCountdown(ms);
   // highlight row
   const prev = timesDiv.querySelector('.time.next');
   if (prev) prev.classList.remove('next');
